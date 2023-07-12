@@ -8,7 +8,7 @@
 # For example:
 a: int = 2023
 
-b = 42.5
+b: float = 42.5
 c = "42"
 d = "\u0CA0"
 e = "False"
