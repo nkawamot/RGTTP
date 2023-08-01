@@ -7,14 +7,17 @@
 #    sentence of your choice.
 
 # INSERT YOUR CODE HERE
-print("I'm {}.".format("Nozomi"))
+name: str = "Nozomi"
+print("I'm {}.".format(name))
 
 
 # 2. Use string formatting with positional arguments and
 #    print the sentence: "Don't Panic!"
 
 # INSERT YOUR CODE HERE
-print("{0} {1}".format("Don't", "Panic!"))
+x: str = "Don't"
+y: str = "Panic!"
+print("{0} {1}".format(x, y))
 
 
 # 3. Use string formatting with named arguments and
@@ -22,4 +25,4 @@ print("{0} {1}".format("Don't", "Panic!"))
 #    fill in the brackets with your name and "great".
 
 # INSERT YOUR CODE HERE
-print("{name} is really {what}!".format(name="Nozomi", what="great"))
+print("{name:s} is really {what:s}!".format(name="Nozomi", what="great"))
